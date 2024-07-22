@@ -1,5 +1,6 @@
 ﻿using Assigmint_5.First_project;
 using Assigmint_5.Second_project;
+using Assigmint_5.third_project;
 
 namespace Assigmint_5
 {
@@ -38,14 +39,44 @@ namespace Assigmint_5
                foreach (Point3D p in points)
                    Console.WriteLine(p.ToString());*/
             #endregion
+
+
             #region SEcond project
-           /* int x = 10, y = 5;
+            /* int x = 10, y = 5;
 
-            Console.WriteLine("Add: " + Maths.Add(x, y));
-            Console.WriteLine("Subtract: " + Maths.Subtract(x, y));
-            Console.WriteLine("Multiply: " + Maths.Multiply(x, y));
-            Console.WriteLine("Divide: " + Maths.Divide(x, y));*/
+             Console.WriteLine("Add: " + Maths.Add(x, y));
+             Console.WriteLine("Subtract: " + Maths.Subtract(x, y));
+             Console.WriteLine("Multiply: " + Maths.Multiply(x, y));
+             Console.WriteLine("Divide: " + Maths.Divide(x, y));*/
 
+            #endregion
+
+
+            #region third project
+
+            Duration D1 = new Duration(1, 10, 15);
+            Console.WriteLine(D1);
+
+            Duration D2 = new Duration(7800);
+            Console.WriteLine(D2);
+
+            Duration D3 = new Duration(666);
+            Console.WriteLine(D3);
+
+            D3 = D1 + D2;
+            Console.WriteLine("D1 + D2 = " + D3);
+
+            D3 = D1 + 7800;
+            Console.WriteLine("D1 + 7800 = " + D3);
+
+            D3++;
+            Console.WriteLine("++D1 = " + D3);
+
+            D2--;
+            Console.WriteLine("--D2 = " + D2);
+
+            D1 = D1 - D2;
+            Console.WriteLine("D1 - D2 = " + D1);
             #endregion
 
 
